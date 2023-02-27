@@ -1,0 +1,14 @@
+body {
+  font-family: 'Sans serif';
+  background-color: #1e1e1e;
+  color: cyan;
+  font-size: large;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
