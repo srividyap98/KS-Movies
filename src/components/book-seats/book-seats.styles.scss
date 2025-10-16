@@ -1,0 +1,42 @@
+.seat-list-container{
+    text-align: center;
+    color: lightgreen;
+
+    h1{
+        font-size: 50px;
+        color: lightgreen;
+    }
+
+    .seat-list{
+        padding-top: 30px;
+        color: lightgreen;
+
+        .reserved{
+            text-decoration: none;
+            color: rgb(35, 228, 35) ;
+            background-color: red;
+            cursor: default;
+            border: 1px solid lightgreen;
+            padding: 10px;
+            margin: 10px;
+            font-size: 25px;
+            pointer-events: none;
+            border-radius: 10px;
+        }
+
+        .link{
+            text-decoration: none;
+            color: lightgreen;
+            border: 1px solid lightgreen;
+            padding: 10px;
+            margin: 10px;
+            font-size: 25px;
+            border-radius: 10px;
+    
+            &:hover{
+                color: lightgreen ;
+                background-color: purple;
+            }
+        }
+    }
+}

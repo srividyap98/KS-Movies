@@ -1,0 +1,71 @@
+* {
+  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    color: black;
+    vertical-align: baseline;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  tr:nth-child(odd){background-color: #e2f2f2}
+  
+  th {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+.cursor {
+    cursor: pointer;
+}
+
+.cursor:hover {
+    background-color: orange;
+}
+
+.addmovie-container {
+  width: 80%;
+  margin: auto;
+
+}
+
+.movieForm {
+  .input-row {
+    display: block;
+    margin: 10px;
+
+    label {
+      padding: 5px;
+      width: 100px;
+      display: inline-block;
+    }
+
+    input {
+      height: 30px;
+      width: 500px;
+    }
+  }
+}
+
+.movie-link {
+  color: white;
+  font-size: 1.5em;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding:5px;
+  margin: 5px;
+}
+
+.movie-link:hover {
+  background-color: orange;
+}

@@ -1,0 +1,31 @@
+.date-list-container{
+    text-align: center;
+
+    h1{
+        font-size: 60px;
+        color: lightgreen;
+    }
+
+    .date-list{
+        padding-top: 30px;
+
+        h2{
+            font-size: 60px;
+            color: lightpink;
+        }
+
+        span{
+            text-decoration: none;
+            color: lightgreen;
+            outline: 1px solid lightgreen;
+            padding: 10px;
+            margin: 25px;
+            font-size: 25px;
+    
+            &:hover{
+                color: white;
+                background-color: rgb(13, 212, 49);
+            }
+        }
+    }
+}

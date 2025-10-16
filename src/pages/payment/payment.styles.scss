@@ -1,0 +1,52 @@
+.pay-container {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: lightgreen;
+
+    h2{
+        font-size: 40px;
+    }
+
+    .pay-form-container {
+        .input {
+            height: 40px;
+            margin: 10px 0px;
+            font-size: 20px;
+            width: 100%;
+            color: white;
+            background-color: transparent;
+            border-style: double;
+            border-bottom: 1px solid white;
+            outline: transparent;
+        }
+
+        div{
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+            .button {
+                float: left;
+                margin: 10px 0px;
+                padding: 10px 15px;
+                font-size: 16px;
+                color: white;
+                background-color: red;
+                border: none;
+                border-radius: 5px;
+    
+                &:hover{
+                    background-color: lightgreen;
+                    cursor: pointer;
+                }
+            }
+
+            span{
+                font-size: 20px;
+                float: right;
+            }
+        }
+    }
+}
