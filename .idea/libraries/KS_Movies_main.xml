@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="KS-Movies-main">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/node_modules.zip!/" />
+      <root url="jar://$PROJECT_DIR$/backend.zip!/" />
+      <root url="jar://$PROJECT_DIR$/db.zip!/" />
+      <root url="jar://$PROJECT_DIR$/public.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

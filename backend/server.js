@@ -37,7 +37,7 @@ app.use(passport.session());
 
 //Connecting to MongoDB using mongoose
 try {
-// mongoose.connect('mongodb+srv://Krushmi:Krushmi123@cluster0.wq4butl.mongodb.net/Krushmi?retryWrites=true&w=majority', {useNewUrlParser: true,eUnifiedTopology: true });
+
 mongoose.connect('mongodb://localhost:27017/ksmovies', { useNewUrlParser: true, useUnifiedTopology: true })
 mongoose.set("useCreateIndex", true);
   
